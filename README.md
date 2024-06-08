@@ -1,7 +1,6 @@
-# Minimal Android app written in Scala
+## Reproduction of bug of Scala editor in Android IDE
 
-An example app demonstrating [Scala Android Plugin](https://github.com/onsqcorp/scala-android-plugin).
+* Checkout and open this in Android Studio or IntelliJ with Android plugin.
+* Install Scala plugin
 
-Checkout and open this in Android Studio.
-
-Supports from Scala 2.11 to 2.13.
+Up to Android Studio Iguana, everything works fine. However from Android Studio Jellyfish, when `MainActivity.scala` is open in editor, error is highlighted on `blocking` and `println`, in spite of the code have no problem.

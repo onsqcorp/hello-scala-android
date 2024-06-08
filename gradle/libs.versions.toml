@@ -5,8 +5,8 @@ coreKtx = "1.13.1"
 # 2.11.x
 # 2.12.7 or lower
 # 2.13.7 or newer
-scalaAndroidPlugin = "24.0606.2018"
-scalaLibrary = "2.13.14"
+scalaAndroidPlugin = "24.0606.2139"
+scalaLibrary = "2.11.12"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
