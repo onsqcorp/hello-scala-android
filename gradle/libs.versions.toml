@@ -5,7 +5,7 @@ coreKtx = "1.15.0"
 # 2.11.x
 # 2.12.7 or lower
 # 2.13.7 or newer
-scalaAndroidPlugin = "24.0606.2018"
+scalaAndroidPlugin = "24.1019.1546"
 scalaLibrary = "3.7.0-RC1"
 
 [libraries]
