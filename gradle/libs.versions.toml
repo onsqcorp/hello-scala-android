@@ -6,7 +6,7 @@ coreKtx = "1.15.0"
 # 2.12.7 or lower
 # 2.13.7 or newer
 scalaAndroidPlugin = "24.0606.2018"
-scalaLibrary = "2.13.14"
+scalaLibrary = "2.13.16"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -15,5 +15,3 @@ scala-library = { module = "org.scala-lang:scala-library", version.ref = "scalaL
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
-
-
