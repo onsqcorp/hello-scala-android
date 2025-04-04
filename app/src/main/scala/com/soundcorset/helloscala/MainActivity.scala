@@ -8,4 +8,5 @@ class MainActivity extends Activity:
     super.onCreate(savedInstanceState)
     val view: TextView = new TextView(this)
     view.setText("Hello Scala Android.")
+    view.setPadding(10, 100, 10, 100)
     setContentView(view)

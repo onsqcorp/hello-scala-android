@@ -3,11 +3,11 @@ agp = "8.9.1"
 coreKtx = "1.15.0"
 # Possible choices of scala versions are
 # 2.11.x
-# 2.12.7 or lower
-# 2.13.7 or newer
-# 3.3.x LTS or newer
-scalaAndroidPlugin = "24.1019.1546"
+# 2.12.7 or earlier
+# 2.13.7 or later
+# 3.3.3 or later
 scalaLibrary = "3.7.0-RC1"
+scalaAndroidPlugin = "24.1019.1546"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
