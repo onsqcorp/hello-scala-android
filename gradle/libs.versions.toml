@@ -5,12 +5,14 @@ coreKtx = "1.15.0"
 # 2.11.x
 # 2.12.7 or lower
 # 2.13.7 or newer
+# 3.3.x LTS or newer
 scalaAndroidPlugin = "24.1019.1546"
 scalaLibrary = "3.7.0-RC1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 scala-android-plugin = { module = "com.soundcorset:scala-android-plugin", version.ref = "scalaAndroidPlugin" }
+# if scala 2.x use 'module = "org.scala-lang:scala-library"'
 scala-library = { module = "org.scala-lang:scala3-library_3", version.ref = "scalaLibrary" }
 
 [plugins]
