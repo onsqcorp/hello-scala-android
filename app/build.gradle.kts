@@ -1,9 +1,15 @@
+
 plugins {
     alias(libs.plugins.androidApplication)
+    alias(libs.plugins.scalaAndroid)
     id("org.barfuin.gradle.taskinfo") version "2.2.0"
 }
-
-apply(plugin = "com.soundcorset.scala-android")
+// Possible choices of scala versions are
+// 2.11.x
+// 2.12.7 or earlier
+// 2.13.7 or later
+// 3.3.3 or later
+scala.scalaVersion = "3.7.0-RC2"
 
 android {
     namespace = "com.soundcorset.helloscala"
@@ -43,6 +49,5 @@ android {
 }
 
 dependencies {
-    implementation(libs.scala.library)
     implementation(libs.androidx.core.ktx)
 }
