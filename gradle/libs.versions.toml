@@ -1,6 +1,6 @@
 [versions]
-agp = "8.9.1"
-coreKtx = "1.16.0"
+agp = "8.13.1"
+coreKtx = "1.17.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
