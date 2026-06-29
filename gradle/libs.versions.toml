@@ -1,10 +1,10 @@
 [versions]
-agp = "8.13.1"
-coreKtx = "1.17.0"
+agp = "9.2.1"
+coreKtx = "1.19.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
-scalaAndroid = { id = "com.soundcorset.scala-android", version = "25.0417.2204" }
+scalaAndroid = { id = "com.soundcorset.scala-android", version = "26.0124.2208" }
